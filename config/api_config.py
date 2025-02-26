@@ -33,6 +33,8 @@ class AccessTokenConfig:
 class ApiV1Prefix:
     prefix: str = "/v1"
     auth: str = "/auth"
+    users: str = "/users"
+    tasks: str = "/tasks"
 
 
 @dataclass
